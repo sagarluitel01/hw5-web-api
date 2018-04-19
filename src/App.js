@@ -21,7 +21,7 @@ class App extends Component {
                         <Route path="/movielist" render={()=><MovieList />}/>
                         <Route path="/movie/:movieId" render={()=><Movie />}/>
                         <Route path="/signin" render={()=><Authentication />}/>
-                        <Route path='/signup' render={()=><signup/>}/>
+                        <Route path='https://hw4-webapi.herokuapp.com/signup' render={()=><signup />}/>
                     </div>
                 </HashRouter>
                 </Provider>
