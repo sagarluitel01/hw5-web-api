@@ -21,7 +21,6 @@ class App extends Component {
                         <Route path="/movielist" render={()=><MovieList />}/>
                         <Route path="/movie/:movieId" render={()=><Movie />}/>
                         <Route path="/signin" render={()=><Authentication />}/>
-                        <Route path="/signup" render={()=><signup />}/>
                     </div>
                 </HashRouter>
                 </Provider>
